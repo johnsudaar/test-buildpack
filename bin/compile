@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cat >$1/.bashrc <<EOF
+alias helloworld="echo Hello World"
+EOF
